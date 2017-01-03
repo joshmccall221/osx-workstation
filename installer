@@ -88,6 +88,9 @@ brew cask install slack
 echo "install pycharm"
 brew cask install pycharm
 
+echo "install webstorm"
+brew cask install webstorm
+
 echo "install vmware-fusion"
 brew cask install vmware-fusion
 
