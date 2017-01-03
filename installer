@@ -75,3 +75,28 @@ brew cask install iterm2
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
+
+echo "install spectacle"
+brew cask install spectacle
+
+echo "install hyper"
+brew cask install hyper
+
+echo "install slack"
+brew cask install slack
+
+echo "install pycharm"
+brew cask install pycharm
+
+echo "vmware-fusion"
+brew cask install vmware-fusion
+
+echo "dotfiles"
+git clone https://github.com/joshmccall221/dotfiles.git
+cd dotfiles/
+./symlink.sh
+
+cd ~/.hyper_plugins/
+nvm install --lts=Argon
+node --version
+npm i
