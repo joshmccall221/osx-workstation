@@ -88,8 +88,11 @@ brew cask install slack
 echo "install pycharm"
 brew cask install pycharm
 
-echo "vmware-fusion"
+echo "install vmware-fusion"
 brew cask install vmware-fusion
+
+echo "install VSCode"
+brew cask install visual-studio-code
 
 echo "dotfiles"
 git clone https://github.com/joshmccall221/dotfiles.git
