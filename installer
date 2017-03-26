@@ -108,6 +108,8 @@ node --version
 npm i
 
 echo "spacemacs"
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 brew install emacs
+rm -rf ~/.emacs.d/
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
 
