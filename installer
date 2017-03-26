@@ -67,11 +67,11 @@ brew install brew-cask
 echo "install chrome"
 brew cask install google-chrome
 
-echo "install firefox"
-brew cask install firefox
+#echo "install firefox"
+#brew cask install firefox
 
-echo "install iterm2"
-brew cask install iterm2
+#echo "install iterm2"
+#brew cask install iterm2
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
@@ -82,20 +82,20 @@ brew cask install spectacle
 echo "install hyper"
 brew cask install hyper
 
-echo "install slack"
-brew cask install slack
+#echo "install slack"
+#brew cask install slack
 
-echo "install pycharm"
-brew cask install pycharm
+#echo "install pycharm"
+#brew cask install pycharm
 
-echo "install webstorm"
-brew cask install webstorm
+#echo "install webstorm"
+#brew cask install webstorm
 
-echo "install vmware-fusion"
-brew cask install vmware-fusion
+#echo "install vmware-fusion"
+#brew cask install vmware-fusion
 
-echo "install VSCode"
-brew cask install visual-studio-code
+#echo "install VSCode"
+#brew cask install visual-studio-code
 
 echo "dotfiles"
 git clone https://github.com/joshmccall221/dotfiles.git
@@ -106,3 +106,8 @@ cd ~/.hyper_plugins/
 nvm install --lts=Argon
 node --version
 npm i
+
+echo "spacemacs"
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+brew install emacs
+
